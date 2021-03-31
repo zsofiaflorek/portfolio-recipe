@@ -1,5 +1,9 @@
 *{
     box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+strong{
+    font-weight: bold;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -87,4 +91,21 @@ h3{
     line-height: 21px;
     font-style: italic;
     margin: 10px 0 20px 0;
+}
+
+li{
+    list-style: none;
+    font-size: 14px;
+
+}
+
+.ingredients-list{
+    display: flex;
+    align-items: flex-start;
+    line-height: 25px;
+
+}
+
+li > div > i{
+    margin: 0 10px 0 0;
 }
